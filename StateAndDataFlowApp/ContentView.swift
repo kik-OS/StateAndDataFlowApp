@@ -53,8 +53,9 @@ struct ButtonLogOutView: View {
    
     var body: some View {
         Button(action: {
-            user.isRegistered = false
             user.name = ""
+            user.isRegistered = false
+            
         }) {
             Text("Log Out")
                 .font(.title)

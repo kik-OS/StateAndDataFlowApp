@@ -42,6 +42,5 @@ struct RegisterdView: View {
 struct RegisterdView_Previews: PreviewProvider {
     static var previews: some View {
         RegisterdView()
-//            .environmentObject(UserManager())
     }
 }
